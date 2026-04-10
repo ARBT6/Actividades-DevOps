@@ -1,0 +1,8 @@
+services:
+  clase07:
+    image: clase07
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
